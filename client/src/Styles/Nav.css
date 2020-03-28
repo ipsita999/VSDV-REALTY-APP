@@ -1,0 +1,28 @@
+nav {
+    height: 5vh;
+    z-index: 3;
+    width: 100vw;
+    /* background-color: rgb(244, 244, 248); */
+    background-color: rgba(247, 251, 255, 0.329);
+    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.719);
+    display:flex;
+    /* border: 2px solid red; */
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;  
+    padding: .5%;
+}
+
+.logo{
+    margin-left: 1%;
+}
+
+.nav-right{
+    /* margin-right: 1; */
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+}
+
