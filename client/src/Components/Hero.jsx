@@ -13,7 +13,7 @@ const Hero = () => {
      
             <div className='header'>
 
-                <h1>We are VSDV Realty. The best agency in New Jersey, New York, and Pennsylvania.</h1>
+                <h1 className="title">We are VSDV Realty. <br></br> The best agency in New Jersey, New York, and Pennsylvania.</h1>
            
             </div>
         
