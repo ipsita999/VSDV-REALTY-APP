@@ -6,12 +6,16 @@ nav {
     background-color: rgba(247, 251, 255, 0.329);
     background-color: rgba(0, 0, 0, 0.514);
     background-color: rgba(0, 0, 0, 0.719);
+    background-color: #dbb782;
+    background-color: #99c4d8;
+    background-color: black;
     display:flex;
     /* border: 2px solid red; */
     position: fixed;
     justify-content: space-between;
     align-items: center;  
     padding: .5%;
+    color: white;
 }
 
 .logo{
@@ -25,4 +29,44 @@ nav {
     justify-content: space-evenly;
     letter-spacing: 2px;
 }
+.work-link {
+    padding-bottom: 10px;
+    position: relative;
+    color: white;
+    background-image: linear-gradient(rgb(235, 182, 117), rgb(236, 210, 179)), linear-gradient(black, black);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .3s ease-out;
+    text-transform: uppercase;
+    /* border-radius: 10px; */
+    /* text-decoration: none; */
+  }
+  
+  .work-link:hover {
+      /* border-bottom: 5px solid rgb(115, 115, 153); */
+      /* border-radius: 10px; */
+    /* color: white;
+    border-bottom: 1px solid white;
+    transform: scaleX(1); */
+    background-size: 100% 4px, auto;
 
+  }
+  .work-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .work-link:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+  

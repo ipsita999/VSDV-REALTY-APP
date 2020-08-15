@@ -24,6 +24,8 @@
     "express": "^4.17.1",
     "node": "^13.12.0",
     "nodemailer": "^6.4.6",
+    "pure-react-carousel": "^1.27.1",
+    "react-responsive-carousel": "^3.2.9",
     "react-scroll": "^1.7.16",
     "xoauth2": "^1.2.0"
   }

@@ -17,11 +17,12 @@ class Nav extends React.Component {
 
                     <div className="nav-right">
                         <Link
+                          className= 'work-link'
                             activeClass="active"
                             to="team"
                             spy={true}
                             smooth={true}
-                            // offset={-85}
+                            offset={-55}
                             duration={500}
                         > Team</Link>
                         <Link
@@ -35,6 +36,7 @@ class Nav extends React.Component {
                         > Listings</Link>
                         <Link
                             activeClass="active"
+                            className= 'work-link'
                             to="contact"
                             spy={true}
                             smooth={true}
