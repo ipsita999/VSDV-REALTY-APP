@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './Components/Nav'
+// import Nav from './Components/Nav'
 import Team from './Components/Team'
 import Contact from './Components/Contact'
 import Hero from './Components/Hero'
